@@ -1,6 +1,10 @@
 public class CheckingAccount extends Account{
     private double monthlyFee;
 
+    public CheckingAccount(double balance) {
+        super(balance);
+    }
+
 
     @Override
     public double getBalance() {

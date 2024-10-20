@@ -1,10 +1,10 @@
 public class SavingsAccount extends Account{
     private double interestRate;
 
-    @Override
-    public void account(double balance) {
-
+    public SavingsAccount(double balance) {
+        super(balance);
     }
+
 
     @Override
     public double getBalance() {
